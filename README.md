@@ -1,8 +1,8 @@
-## CityCamp Website Template
+# CityCamp website template
 
-Deploy a [CityCamp](https://citycamp.com) website easily.
+Easily deploy a [CityCamp](https://citycamp.com) website.
 
-### Run the website locally
+## Run the website locally
 
 * Ensure Ruby 3.3+ is installed.
 * Ensure Node is installed.
@@ -13,10 +13,12 @@ Deploy a [CityCamp](https://citycamp.com) website easily.
 1. run `jekyll serve` to start a web server at http://localhost:4000
 1. 🔨 and 🚢
 
-### Deploy the template to GitHub Pages using GitHub Actions
+## Deploy the template to GitHub Pages using GitHub Actions
 
 1. fork the https://github.com/CityCamp/citycamp-website-template repository
 1. update configs in `_config.yml`
 1. Set the GitHub repo - `Settings > Pages` and set the "Source" to "GitHub Actions"
 
-If you'd like some help, get in touch at https://citycamp.com/help.
+## Help
+
+If you'd like help, get in touch at https://citycamp.com/help.
