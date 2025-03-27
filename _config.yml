@@ -39,10 +39,14 @@ social_links:
   - name: x
     url: https://x.com/citycamp
   - name: facebook
-    url:
+    url: https://www.facebook.com/citycamp
   - name: instagram
     url:
+  - name: slack
+    url: https://join.slack.com/t/citycamp-team/shared_invite/zt-30wn3ct2a-zzxhCRYLdlKlDLvjqv~dBA
   - name: bluesky
-    url:
+    url: https://citycamp.bsky.social/
   - name: youtube
     url:
+  - name: rss
+    url: https://citycamp.com/feed.xml

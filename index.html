@@ -79,6 +79,34 @@ title: "Home"
             </svg>
           </a>
         {% endif %}
+        {% if link.name == "slack" and link.url %}
+          <a
+            href="{link.url}"
+            class="hover:text-gray-800">
+            <span class="sr-only">Slack</span>
+            <svg class="size-6" aria-label="Slack" aria-hidden="true" focusable="false"
+              data-prefix="fab" data-icon="slack" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+              data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z">
+              </path>
+            </svg>
+          </a>
+        {% endif %}
+        {% if link.name == "facebook" and link.url %}
+          <a
+            href="{link.url}"
+            class="hover:text-gray-800">
+            <span class="sr-only">Facebook</span>
+            <svg class="size-6" aria-label="Facebook" aria-hidden="true" focusable="false"
+              data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+              data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z">
+              </path>
+            </svg>
+          </a>
+        {% endif %}
         {% if link.name == "bluesky" and link.url %}
           <a
             href="{link.url}"
@@ -91,6 +119,37 @@ title: "Home"
               <path
                 d="M135.719 44.0299C202.215 93.9509 273.739 195.17 299.999 249.49C326.261 195.174 397.781 93.9499 464.279 44.0299C512.259 8.00887 590 -19.8621 590 68.8249C590 86.5369 579.844 217.615 573.888 238.895C553.185 312.879 477.744 331.749 410.638 320.328C527.938 340.292 557.778 406.42 493.335 472.548C370.945 598.138 317.425 441.037 303.705 400.782C301.191 393.402 300.015 389.95 299.998 392.885C299.98 389.95 298.804 393.402 296.29 400.782C282.576 441.037 229.057 598.142 106.66 472.548C42.2161 406.42 72.0551 340.288 189.357 320.328C122.249 331.749 46.8071 312.879 26.1071 238.895C20.1509 217.613 9.99609 86.5349 9.99609 68.8249C9.99609 -19.8621 87.7381 8.00887 135.716 44.0299H135.719Z"
                 fill="black" />
+            </svg>
+          </a>
+        {% endif %}
+        {% if link.name == "rss" and link.url %}
+          <a
+            href="{link.url}"
+            class="hover:text-gray-800">
+            <span class="sr-only">Instagram</span>
+            <svg
+              class="size-6"
+              fill="currentcolor"
+              xmlns="http://www.w3.org/2000/svg" id="RSSicon" viewBox="0 0 8 8" width="256" height="256">
+
+              <title>RSS feed icon</title>
+
+              <style type="text/css">
+                .button {
+                  stroke: none;
+                  fill: black;
+                }
+
+                .symbol {
+                  stroke: none;
+                  fill: white;
+                }
+              </style>
+
+              <rect class="button" width="8" height="8" rx="1.5" />
+              <circle class="symbol" cx="2" cy="6" r="1" />
+              <path class="symbol" d="m 1,4 a 3,3 0 0 1 3,3 h 1 a 4,4 0 0 0 -4,-4 z" />
+              <path class="symbol" d="m 1,2 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6 z" />
             </svg>
           </a>
         {% endif %}
