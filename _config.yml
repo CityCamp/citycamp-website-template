@@ -16,7 +16,6 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
 
-
 # CityCamp specific variables go below #########################################
 
 city_camp_host_city: "Idealville"
@@ -30,3 +29,17 @@ partners:
     image_url: "https://citycamp.com/assets/img/posts/default-og.png"
   - name: "that"
     image_url: "https://citycamp.com/assets/img/posts/default-og.png"
+
+social_links:
+  - name: github
+    url: https://github.com/CityCamp/citycamp-website-template
+  - name: x
+    url: https://x.com/citycamp
+  - name: facebook
+    url:
+  - name: instagram
+    url:
+  - name: bluesky
+    url:
+  - name: youtube
+    url:
