@@ -2,6 +2,9 @@
 
 Easily deploy a [CityCamp](https://citycamp.com) website.
 
+* Demo site: https://citycamp-website-template.citycamp.com/
+* citycamp.com subdomain request: https://citycamp.com/subdomain-request
+
 ## Run the website locally
 
 * Ensure Ruby 3.3+ is installed.
