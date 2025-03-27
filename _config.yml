@@ -20,7 +20,10 @@ exclude:
 
 city_camp_host_city: "Idealville"
 city_camp_organizer_email: "example-organizer@citycamp.com"
-city_camp_dark_color: "gray-900" # choose a tailwind color, and set it in .template-colors as well (near the top of index.html)
+# choose a tailwind color, and set it in .template-colors as well (near the top of index.html)
+# see https://tailwindcss.com/docs/colors for more information on Tailwind colors
+# then consider running https://webaim.org/resources/contrastchecker/ on the site
+city_camp_dark_color: "gray-900"
 
 # Display partners (sponsors) component or not
 display_partners: true # true | false
