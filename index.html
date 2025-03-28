@@ -28,11 +28,11 @@ title: "Home"
           class="text-sm/6 font-semibold">About CityCamp</a>
       </div>
       <div
-        class="hidden lg:flex lg:flex-1 gap-x-4 lg:justify-end text-{{site.city_camp_dark_color}}">
+        class="flex flex-1 gap-x-4 justify-end text-{{site.city_camp_dark_color}}">
       {% for link in site.social_links %}
         {% if link.name == "github" and link.url %}
           <a
-            href="{link.url}"
+            href="{{link.url}}"
             class="hover:text-gray-800"
             target="_blank">
             <span class="sr-only">GitHub</span>
@@ -45,7 +45,7 @@ title: "Home"
         {% endif %}
         {% if link.name == "x" and link.url %}
           <a
-            href="{link.url}"
+            href="{{link.url}}"
             class="hover:text-gray-800" target="_blank">
             <span class="sr-only">X</span>
             <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -56,7 +56,7 @@ title: "Home"
         {% endif %}
         {% if link.name == "youtube" and link.url %}
           <a
-            href="{link.url}"
+            href="{{link.url}}"
             class="hover:text-gray-800">
             <span class="sr-only">YouTube</span>
             <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -68,7 +68,7 @@ title: "Home"
         {% endif %}
         {% if link.name == "instagram" and link.url %}
           <a
-            href="{link.url}"
+            href="{{link.url}}"
             class="hover:text-gray-800">
             <span class="sr-only">Instagram</span>
             <svg class="size-6"
@@ -81,7 +81,7 @@ title: "Home"
         {% endif %}
         {% if link.name == "slack" and link.url %}
           <a
-            href="{link.url}"
+            href="{{link.url}}"
             class="hover:text-gray-800">
             <span class="sr-only">Slack</span>
             <svg class="size-6" aria-label="Slack" aria-hidden="true" focusable="false"
@@ -95,7 +95,7 @@ title: "Home"
         {% endif %}
         {% if link.name == "facebook" and link.url %}
           <a
-            href="{link.url}"
+            href="{{link.url}}"
             class="hover:text-gray-800">
             <span class="sr-only">Facebook</span>
             <svg class="size-6" aria-label="Facebook" aria-hidden="true" focusable="false"
@@ -109,7 +109,7 @@ title: "Home"
         {% endif %}
         {% if link.name == "bluesky" and link.url %}
           <a
-            href="{link.url}"
+            href="{{link.url}}"
             class="hover:text-gray-800">
             <span class="sr-only">Instagram</span>
             <svg class="size-6"
@@ -124,7 +124,7 @@ title: "Home"
         {% endif %}
         {% if link.name == "rss" and link.url %}
           <a
-            href="{link.url}"
+            href="{{link.url}}"
             class="hover:text-gray-800">
             <span class="sr-only">Instagram</span>
             <svg
